@@ -9,20 +9,31 @@ main {
   border-radius: 15px;
   margin: 10px 10px 5% 10px;
 }
-header{
+section {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  padding: 10px;
+  border: thin solid white;
+  border-radius: 15px;
+  text-align: center;
+  width: fit-content;
+}
+header {
   display: flex;
   flex-direction: row;
-  background-color:  #5f4b66; 
+  background-color: #5f4b66;
   padding: 5px 0;
 }
 header img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  margin-left:10px;
+  margin-left: 10px;
 }
 nav ul {
-  display: inline-block ;
+  display: inline-block;
 }
 nav li {
   display: inline;
@@ -31,7 +42,6 @@ nav a {
   color: white;
   text-decoration: none;
   margin-right: 40px;
-  
 }
 nav a:visited {
   color: white;
@@ -40,37 +50,18 @@ nav a:hover {
   text-decoration: underline;
 }
 #Hello {
-  display: block;
-  width: fit-content;
-  padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 5%;
-  margin-bottom: 5%;
-  border: thin solid white;
-  border-radius: 15px;
-  text-align: center;
 }
 #Hello img {
   border-radius: 50%;
   width: 200px;
   height: 200px;
 }
-#Hello p,
+#Hello span,
 h1 {
   font-style: italic;
 }
-#About {
-  text-align: center;
-  margin-bottom: 5%;
-  border: thin solid white;
-  border-radius: 15px;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-}
-#About h3 {
+h3 {
   border: thin solid white;
   border-radius: 15px;
   background-color: #5f4b66;
@@ -87,26 +78,9 @@ h1 {
 #About a:visited {
   color: #5f4b66;
 }
-#Work {
-  display: block;
-  width: fit-content;
-  padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  border: thin solid white;
-  border-radius: 15px;
-  margin-bottom: 5%;
-}
-#Work h3 {
-  background-color: #5f4b66;
-  text-align: center;
-  border: thin solid white;
-  padding: 10px;
-  border-radius: 15px;
-}
+
 #Work ul {
   list-style-type: none;
-
   padding: 10px;
   text-align: left;
 }
@@ -127,46 +101,14 @@ h1 {
 #angular {
   margin-left: 120px;
 }
-#Resume {
-  display: block;
-  width: fit-content;
-  padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  border: thin solid white;
-  border-radius: 15px;
-  text-align: center;
-  margin-bottom: 5%;
-}
-#Resume h3 {
-  background-color: #5f4b66;
-  border: thin solid white;
-  border-radius: 15px;
-  padding: 10px;
-}
+
 #Resume iframe {
   width: 560px;
   height: 315px;
   border-radius: 15px;
   border: none;
 }
-#Contact {
-  display: block;
-  width: fit-content;
-  padding: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  border: thin solid white;
-  border-radius: 15px;
-  margin-bottom: 5%;
-}
-form h3 {
-  text-align: center;
-  background-color: #5f4b66;
-  border: thin solid white;
-  border-radius: 15px;
-  padding: 10px;
-}
+
 #Contact form {
   display: block;
 }
@@ -185,9 +127,7 @@ input {
 }
 button {
   display: block;
-  margin-top: 10px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 10px auto 0 auto;
   color: white;
   background-color: #5f4b66;
   cursor: pointer;
@@ -198,11 +138,11 @@ footer {
   text-align: center;
   padding: 10px;
 }
-footer img{
+footer img {
   width: 20px;
   height: 20px;
   margin-left: 10px;
 }
-footer img:hover{
+footer img:hover {
   opacity: 0.8;
 }
