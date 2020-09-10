@@ -1,0 +1,208 @@
+body {
+  font-family: "lato", sans-serif;
+  background-color: black;
+  margin: 0;
+  color: white;
+}
+main {
+  border: thin solid white;
+  border-radius: 15px;
+  margin: 10px 10px 5% 10px;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  background-color:  #5f4b66; 
+  padding: 5px 0;
+}
+header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left:10px;
+}
+nav ul {
+  display: inline-block ;
+}
+nav li {
+  display: inline;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 40px;
+  
+}
+nav a:visited {
+  color: white;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+#Hello {
+  display: block;
+  width: fit-content;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border: thin solid white;
+  border-radius: 15px;
+  text-align: center;
+}
+#Hello img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+#Hello p,
+h1 {
+  font-style: italic;
+}
+#About {
+  text-align: center;
+  margin-bottom: 5%;
+  border: thin solid white;
+  border-radius: 15px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+#About h3 {
+  border: thin solid white;
+  border-radius: 15px;
+  background-color: #5f4b66;
+  padding: 10px;
+}
+#About a {
+  color: #5f4b66;
+  text-decoration: none;
+  font-style: italic;
+}
+#About a:hover {
+  text-decoration: underline;
+}
+#About a:visited {
+  color: #5f4b66;
+}
+#Work {
+  display: block;
+  width: fit-content;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: thin solid white;
+  border-radius: 15px;
+  margin-bottom: 5%;
+}
+#Work h3 {
+  background-color: #5f4b66;
+  text-align: center;
+  border: thin solid white;
+  padding: 10px;
+  border-radius: 15px;
+}
+#Work ul {
+  list-style-type: none;
+
+  padding: 10px;
+  text-align: left;
+}
+#Work li {
+  display: inline;
+}
+#Work img {
+  width: 560px;
+  height: 315px;
+  border-radius: 15px;
+}
+#react {
+  margin-left: 60px;
+}
+#vue {
+  margin-left: 140px;
+}
+#angular {
+  margin-left: 120px;
+}
+#Resume {
+  display: block;
+  width: fit-content;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: thin solid white;
+  border-radius: 15px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+#Resume h3 {
+  background-color: #5f4b66;
+  border: thin solid white;
+  border-radius: 15px;
+  padding: 10px;
+}
+#Resume iframe {
+  width: 560px;
+  height: 315px;
+  border-radius: 15px;
+  border: none;
+}
+#Contact {
+  display: block;
+  width: fit-content;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: thin solid white;
+  border-radius: 15px;
+  margin-bottom: 5%;
+}
+form h3 {
+  text-align: center;
+  background-color: #5f4b66;
+  border: thin solid white;
+  border-radius: 15px;
+  padding: 10px;
+}
+#Contact form {
+  display: block;
+}
+.form-group {
+  padding: 10px;
+  border: thin solid white;
+}
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+}
+button {
+  display: block;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  background-color: #5f4b66;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+footer {
+  background-color: #5f4b66;
+  text-align: center;
+  padding: 10px;
+}
+footer img{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+footer img:hover{
+  opacity: 0.8;
+}
